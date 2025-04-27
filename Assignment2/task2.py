@@ -1,0 +1,14 @@
+
+def calculate_sum():
+    sum = 0
+    for i in range(1, 51):
+        sum += i
+        
+    return sum
+
+def main():
+    result = calculate_sum()
+    print(f"The sum of numbers from 1 to 50 is: {result}")
+    
+if __name__ == "__main__":
+    main()
